@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#eceffe, #ced6fb);
+}
+
+.swiper-container {
+  width: 60%;
+  max-width: 800px;
+}
+
+.card-link {
+  display: block;
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+
+.card-link:hover {
+  border-color: #5372f0;
+}
+
+.card-image {
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.badge {
+  color: #5372f0;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 12px 0;
+  background: #dde4ff;
+  width: fit-content;
+  border-radius: 50px;
+}
+
+.badge.img1 {
+  color: #b22485;
+  background: #f7dff5;
+}
+
+.badge.img2 {
+  color: #b25a2b;
+  background: #ffe3d2;
+}
+
+.badge.img3 {
+  color: #205c20;
+  background: #d6f8d6;
+}
+
+.badge.img4 {
+  color: #856404;
+  background: #fff3cd;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.card-button {
+  height: 30px;
+  width: 30px;
+  color: #5372f0;
+  border-radius: 50%;
+  margin: 20px 0 5px;
+  background: none;
+  cursor: pointer;
+  border: 2px solid #5372f0;
+  transform: rotate(-45deg);
+  transition: 0.4s ease;
+}
+
+.card-link:hover .card-button {
+  color: #fff;
+  background: #5372f0;
+}
